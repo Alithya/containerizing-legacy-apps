@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "suffix": {
+      "value": "<SUF>"
+    },
+    "virtual_machine_username": {
+      "value": "azroot"
+    },
+    "virtual_machine_public_key": {
+      "value": "ssh-rsa AAAAB3N(...)vPiybQV $(whoami)@workshop"
+    }
+  }
+}
